@@ -22,6 +22,7 @@ We built our project, using ideas of web scraping and database. For this we used
   6) "$market flipkart ~x"- opens the deals of the day page. Similar applies to Amazon which opens the same.
   7) “$market local add” – this command adds the product into the inventory. The user has to specify the product info after this command. For example- “$market local add --product--description--seller--price—image http link--thumbnail http link”. Here the image and thumbnail have to be http links. Make sure to add "--" between the terms.
   8) “$market local search”- this command searches for the product name in the inventory. For example- “$market local search name”.
+  9) If inventory channel is created, your added product would be displayed in inventory channel, with reactions underneath them. The reactions are cart and wish-list, once you react to the message in inventory, a private dm would be sent to you by the bot itself, which would contain the message you reacted to and would say, item updated in cart.
 
 
 How to run:
