@@ -24,7 +24,8 @@ We built our project, using ideas of web scraping and database. For this we used
   8) “$market local search”- this command searches for the product name in the inventory. For example- “$market local search name”.
 
 
-5. How to run:
+How to run:
+
 To run this bot, here are some basic requirements-
 i)	Firstly, we need to have Windows operating system in our laptops (Selenium path is different on another operating system). Also, Google Chrome should be installed beforehand.
 ii)	Next, we need to install “chromedriver.exe” file. For this we can go to the site, https://sites.google.com/chromium.org/driver/ and download the appropriate version of the driver or the version nearest to it. Next, make a folder in C Drive in your laptop, and name it SeleniumDrivers.  Next, paste the downloaded zip file in this folder and extract it there. So, basically your folder of SeleniumDrivers should consist of an exe file and a zip folder. 
