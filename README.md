@@ -33,12 +33,12 @@ pip install discord
 pip install selenium
 pip install discord.ext
 iv)	If you are using the bot on your server, make a inventory channel and replace the channel ID in “Bot_commands/variable/channelIDS” with the new inventory channel ID you created on your server. 
-Now, we have implemented the basic introductory commands-
+Now, we have implemented the basic introductory commands- if the below commands don't work, you can try it on our server:https://discord.gg/frqTbRQS
 i)	“$hello”- which should print “Hello there”.
 ii)	“$market”- which should print the way to progress ahead; for example, if you give command of the type “$market flipkart rubik’s cube”, it should show the result of all the rubik’s cubes available on Flipkart. Similarly, we can implement the same in Amazon, Snapdeal and Pepperfry, and access local market.
 iii)	“$compare” command compares the products entered by user, and gives appropriate result. For example, “$compare iPhone 13 vs iPhone 12” gives the result, comparing the 2 phones.
 
-It also has commands like “$market ~amazon”, which gives deals of the day on Amazon.
+   It also has commands like “$market ~amazon”, which gives deals of the day on Amazon.
 iv)	To access local market place, there are 2 commands-
 •	“$market local add” – this command adds the product into the inventory. The user has to specify the product info after this command. For example- “$market local add –product—description—seller--price—image http link—thumbnail http link”.
 •	“$market local search”- this command searches for the product name in the inventory. For example- “$market local search --name”.
