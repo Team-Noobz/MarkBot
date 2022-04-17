@@ -1,7 +1,10 @@
 # MarkBot
-2. What the project does:
+What the project does:
+
 Through our project, we can browse through some famous e-commerce websites like Amazon, Flipkart, Snapdeal and Pepperfry. By this we mean, that we can search for any product using some simple and easy commands, and get the desired results. Also, the project has a local market, by which anyone can add their products in inventory(market) and search for products available in the marketplace. It also has the facility of cart and wish list, which dms privately your cart items.
-3. How it was built:
+
+How it was built:
+ 
 We built our project, using ideas of web scraping and database. For this we used a module named “Selenium” and database named “SQLite3”. The commands involving Flipkart, Amazon etc, are built using “Selenium”. On the other hand, the local market place is built using database.
 •	We accessed elements on the target web page, and automated the process of browsing through the web page using the technique of web scraping.
 •	We used SQLite3 and stored the added product info, when the add instruction was passed. The same information was retrieved when the search instruction was passed.
